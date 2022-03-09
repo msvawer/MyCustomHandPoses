@@ -53,6 +53,8 @@ public class Hand : MonoBehaviour
    public Rig m_poseAnimationRig = null;
     FingerPose[] m_fingers = null;
 
+    public bool enableHideOnTrackingLoss = true;
+
     private void Awake()
     {
         if (interactor == null)
@@ -89,9 +91,10 @@ public class Hand : MonoBehaviour
         triggerAction.Enable();
 
         m_fingers = GetComponentsInChildren<FingerPose>();
+        
         m_poseAnimationRig.weight = 0.0f;
 
-        Hide();
+        if(enableHideOnTrackingLoss) Hide();
     }
 
     void UpdateAnimations()
@@ -115,7 +118,7 @@ public class Hand : MonoBehaviour
         else if(isTracked == 0 && m_isCurrentlyTracked)
         {
             m_isCurrentlyTracked = false;
-            if(hideOnTrackingLoss) Hide();
+            if(enableHideOnTrackingLoss) Hide();
         }
 
         if(isHidden && !hideOnTrackingLoss)
