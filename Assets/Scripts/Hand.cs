@@ -50,7 +50,7 @@ public class Hand : MonoBehaviour
     Quaternion m_restoreRotation = Quaternion.identity;
 
     float m_poseAnimationTarget = 0.0f;
-    Rig m_poseAnimationRig = null;
+   public Rig m_poseAnimationRig = null;
     FingerPose[] m_fingers = null;
 
     private void Awake()
