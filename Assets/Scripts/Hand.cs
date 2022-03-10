@@ -50,10 +50,8 @@ public class Hand : MonoBehaviour
     Quaternion m_restoreRotation = Quaternion.identity;
 
     float m_poseAnimationTarget = 0.0f;
-   public Rig m_poseAnimationRig = null;
+    public Rig m_poseAnimationRig = null;
     FingerPose[] m_fingers = null;
-
-    public bool enableHideOnTrackingLoss = true;
 
     private void Awake()
     {
@@ -91,10 +89,9 @@ public class Hand : MonoBehaviour
         triggerAction.Enable();
 
         m_fingers = GetComponentsInChildren<FingerPose>();
-        
         m_poseAnimationRig.weight = 0.0f;
 
-        if(enableHideOnTrackingLoss) Hide();
+        Hide();
     }
 
     void UpdateAnimations()
@@ -118,7 +115,7 @@ public class Hand : MonoBehaviour
         else if(isTracked == 0 && m_isCurrentlyTracked)
         {
             m_isCurrentlyTracked = false;
-            if(enableHideOnTrackingLoss) Hide();
+            if(hideOnTrackingLoss) Hide();
         }
 
         if(isHidden && !hideOnTrackingLoss)

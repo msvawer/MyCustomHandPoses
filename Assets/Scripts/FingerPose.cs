@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum FingerId
 {
-    Thumb,
+    Thumb, 
     Index,
     Middle,
     Ring,
@@ -13,5 +13,5 @@ public enum FingerId
 
 public class FingerPose : MonoBehaviour
 {
-    public FingerId finger = FingerId.Thumb;
+    public FingerId finger;
 }
