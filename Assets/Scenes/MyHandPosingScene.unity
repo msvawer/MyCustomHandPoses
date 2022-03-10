@@ -1859,6 +1859,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6023678829319807674, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023678829319807674, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023678829319807674, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8865173421789208767, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1906,6 +1918,18 @@ PrefabInstance:
     - target: {fileID: 8866132174678116409, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
       propertyPath: m_Name
       value: MyDonutPink
+      objectReference: {fileID: 0}
+    - target: {fileID: 9044519238562814084, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
+      propertyPath: leftHandPose
+      value: 
+      objectReference: {fileID: 11400000, guid: 40c836f1c920ac34aa4b9a2a386c2b0b, type: 2}
+    - target: {fileID: 9044519238562814084, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
+      propertyPath: rightHandPose
+      value: 
+      objectReference: {fileID: 11400000, guid: c4cc0de60bd437e44af3bbd2442a76f7, type: 2}
+    - target: {fileID: 9044519238562814084, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}
+      propertyPath: fixedAttachment
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19c89e8d6e077c6419544bf3e51a1d62, type: 3}

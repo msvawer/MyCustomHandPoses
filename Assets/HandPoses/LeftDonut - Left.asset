@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487fd41142fbdaa47a8af89b3b03f50a, type: 3}
+  m_Name: LeftDonut - Left
+  m_EditorClassIdentifier: 
+  thumb:
+    position: {x: 0.057625007, y: 0.032750014, z: -0.019749999}
+    rotation: {x: -0.16380535, y: 0.12545566, z: 0.9733713, w: 0.09988564}
+  index:
+    position: {x: -0.013625003, y: 0.013875006, z: 0.097}
+    rotation: {x: -0.24632427, y: -0.62196994, z: 0.7396568, w: -0.073387355}
+  middle:
+    position: {x: -0.014749981, y: -0.02024999, z: 0.089625}
+    rotation: {x: -0.26277074, y: -0.72322917, z: 0.6201413, w: -0.15269619}
+  ring:
+    position: {x: -0.0016249865, y: -0.045749992, z: 0.07112501}
+    rotation: {x: -0.083260775, y: -0.821506, z: 0.5450348, w: -0.14537108}
+  pinky:
+    position: {x: -0.0039999858, y: -0.063999996, z: 0.050250005}
+    rotation: {x: -0.061231792, y: -0.8534075, z: 0.45370162, w: -0.2492016}
