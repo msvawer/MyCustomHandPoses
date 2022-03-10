@@ -11,7 +11,7 @@ public struct Pose
     public Quaternion rotation;
 }
 
-[CreateAssetMenu(menuName = "XR/Create New Hand Pose")]
+[CreateAssetMenu(menuName = "XR Hand Posing/Create New Hand Pose")]
 public class HandPose : ScriptableObject
 {
     public Pose thumb = Pose.empty;

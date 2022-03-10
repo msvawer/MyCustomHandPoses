@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227356954036125339}
   - component: {fileID: 1227356954036125338}
+  - component: {fileID: 6452813349374984108}
   m_Layer: 0
   m_Name: RingPoser
   m_TagString: Untagged
@@ -57,6 +58,19 @@ MonoBehaviour:
     m_MaintainTargetRotationOffset: 0
   m_SourceObjectsGUIToggle: 1
   m_SettingsGUIToggle: 0
+--- !u!114 &6452813349374984108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227356954036125412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a516e4f30dcae45a9110edfd236289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finger: 3
 --- !u!1 &1227356954881762231
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,6 +81,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227356954881762230}
   - component: {fileID: 1227356954881762229}
+  - component: {fileID: 8655547243287252924}
   m_Layer: 0
   m_Name: ThumbPoser
   m_TagString: Untagged
@@ -114,6 +129,19 @@ MonoBehaviour:
     m_MaintainTargetRotationOffset: 0
   m_SourceObjectsGUIToggle: 1
   m_SettingsGUIToggle: 0
+--- !u!114 &8655547243287252924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227356954881762231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a516e4f30dcae45a9110edfd236289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finger: 0
 --- !u!1 &1227356954912982992
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,6 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227356955025111036}
   - component: {fileID: 1227356955025111027}
+  - component: {fileID: 6923347971360715663}
   m_Layer: 0
   m_Name: PinkyPoser
   m_TagString: Untagged
@@ -269,6 +298,19 @@ MonoBehaviour:
     m_MaintainTargetRotationOffset: 0
   m_SourceObjectsGUIToggle: 1
   m_SettingsGUIToggle: 0
+--- !u!114 &6923347971360715663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227356955025111037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a516e4f30dcae45a9110edfd236289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finger: 4
 --- !u!1 &1227356955066097898
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227356955066097897}
   - component: {fileID: 1227356955066097896}
+  - component: {fileID: 4807955407422443548}
   m_Layer: 0
   m_Name: IndexPoser
   m_TagString: Untagged
@@ -326,6 +369,19 @@ MonoBehaviour:
     m_MaintainTargetRotationOffset: 0
   m_SourceObjectsGUIToggle: 1
   m_SettingsGUIToggle: 0
+--- !u!114 &4807955407422443548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227356955066097898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a516e4f30dcae45a9110edfd236289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finger: 1
 --- !u!1 &1227356955685600472
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227356955685600479}
   - component: {fileID: 1227356955685600478}
+  - component: {fileID: 163282302273655738}
   m_Layer: 0
   m_Name: MiddlePoser
   m_TagString: Untagged
@@ -383,3 +440,16 @@ MonoBehaviour:
     m_MaintainTargetRotationOffset: 0
   m_SourceObjectsGUIToggle: 1
   m_SettingsGUIToggle: 0
+--- !u!114 &163282302273655738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227356955685600472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a516e4f30dcae45a9110edfd236289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finger: 2

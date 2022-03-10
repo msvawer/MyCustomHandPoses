@@ -625,6 +625,7 @@ MonoBehaviour:
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
+    m_Flags: 0
   gripAction:
     m_Name: Grip
     m_Type: 0
@@ -633,6 +634,7 @@ MonoBehaviour:
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
+    m_Flags: 0
   triggerAction:
     m_Name: Trigger
     m_Type: 0
@@ -641,12 +643,15 @@ MonoBehaviour:
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings: []
+    m_Flags: 0
   handAnimator: {fileID: 2633469268828155059}
   enableGripAnimations: 1
   poseAnimationSpeed: 15
   interactor: {fileID: 0}
   grabAttachment: {fileID: 8494180260057121631}
   handVisual: {fileID: 8494180260286812697}
+  m_poseAnimationRig: {fileID: 0}
+  enableHideOnTrackingLoss: 1
 --- !u!1 &8494180260301083467
 GameObject:
   m_ObjectHideFlags: 0

@@ -104,10 +104,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MyHandPosingRig
       objectReference: {fileID: 0}
-    - target: {fileID: 1227356954912982998, guid: bac723d42a9f521419a885c392e1d683, type: 3}
-      propertyPath: m_Effectors.Array.data[0].m_Transform
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1227356954912982999, guid: bac723d42a9f521419a885c392e1d683, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -213,10 +209,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 3a13424b9f60b764fb9af54debe13d8b, type: 2}
     - target: {fileID: 8494180260286812699, guid: 496da9ca93972d644b2bbb33bff700ad, type: 3}
-      propertyPath: m_poseAnimationRig
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8494180260286812699, guid: 496da9ca93972d644b2bbb33bff700ad, type: 3}
       propertyPath: enableHideOnTrackingLoss
       value: 0
       objectReference: {fileID: 0}
@@ -266,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8494180260306726127, guid: 496da9ca93972d644b2bbb33bff700ad, type: 3}
       propertyPath: m_Name
-      value: LeftHand
+      value: MyLeftHandPosable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 496da9ca93972d644b2bbb33bff700ad, type: 3}
