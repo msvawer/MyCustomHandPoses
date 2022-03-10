@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Donut - Left
   m_EditorClassIdentifier: 
   thumb:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    position: {x: 0.0074409246, y: 0.038696807, z: 0.028774694}
+    rotation: {x: -0.5275393, y: 0.073207855, z: 0.83926415, w: 0.10944724}
   index:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    position: {x: -0.044649124, y: 0.019509958, z: 0.09804671}
+    rotation: {x: -0.53491485, y: -0.47362182, z: 0.51618075, w: -0.472341}
   middle:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    position: {x: -0.034497797, y: -0.017702997, z: 0.100734405}
+    rotation: {x: -0.32066584, y: -0.70317876, z: 0.5869795, w: -0.24118122}
   ring:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    position: {x: -0.033634245, y: -0.044945754, z: 0.081764035}
+    rotation: {x: -0.29674596, y: -0.77054936, z: 0.48748216, w: -0.28382543}
   pinky:
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
+    position: {x: -0.027027667, y: -0.06275215, z: 0.058204494}
+    rotation: {x: -0.28820398, y: -0.8056004, z: 0.3700947, w: -0.36190686}
