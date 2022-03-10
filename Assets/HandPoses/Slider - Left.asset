@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487fd41142fbdaa47a8af89b3b03f50a, type: 3}
+  m_Name: Slider - Left
+  m_EditorClassIdentifier: 
+  thumb:
+    position: {x: -0.0045999633, y: 0.0153999375, z: -0.008700011}
+    rotation: {x: -0.5275394, y: 0.073207855, z: 0.8392642, w: 0.10944726}
+  index:
+    position: {x: 0.10410007, y: -0.052900016, z: 0.16299991}
+    rotation: {x: 0.38559473, y: -0.7948151, z: 0.4587005, w: 0.09581122}
+  middle:
+    position: {x: 0.022000048, y: -0.050000012, z: 0.09039997}
+    rotation: {x: -0.20479836, y: -0.6545079, z: 0.7232049, w: -0.08155946}
+  ring:
+    position: {x: 0.0056000287, y: -0.051999986, z: 0.028600043}
+    rotation: {x: 0.013628153, y: -0.94520503, z: 0.24272318, w: -0.21791616}
+  pinky:
+    position: {x: -0.004199937, y: -0.06899998, z: 0.008999924}
+    rotation: {x: -0.19549924, y: -0.8680139, z: 0.30289143, w: -0.34145114}
